@@ -17,9 +17,12 @@ class MyApp extends StatelessWidget {
         theme: ThemeData(
           primarySwatch: Colors.blue,
         ),
-        home: const SafeArea(
+        home: SafeArea(
           child: Scaffold(
-            body: GettingStartedDataGrid(),
+            appBar: AppBar(
+              title: const Text('SyncFusion Datagrid Getting Started'),
+            ),
+            body: const GettingStartedDataGrid(),
           ),
         ));
   }

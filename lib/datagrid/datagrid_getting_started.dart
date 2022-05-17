@@ -21,6 +21,7 @@ class _GettingStartedDataGridState extends SampleViewState {
 
   SfDataGrid _buildDataGridForMobile() {
     return SfDataGrid(
+      allowSorting: true,
       source: teamDataGridSource,
       columnWidthMode: ColumnWidthMode.fill,
       rowHeight: 50,

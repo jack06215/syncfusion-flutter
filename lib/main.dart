@@ -17,8 +17,10 @@ class MyApp extends StatelessWidget {
         theme: ThemeData(
           primarySwatch: Colors.blue,
         ),
-        home: const Scaffold(
-          body: GettingStartedDataGrid(),
+        home: const SafeArea(
+          child: Scaffold(
+            body: GettingStartedDataGrid(),
+          ),
         ));
   }
 }

@@ -1,11 +1,5 @@
-/// Packages import
 import 'package:flutter/material.dart';
-import 'package:intl/intl.dart';
-
-/// DataGrid import
-// ignore: depend_on_referenced_packages
 import 'package:syncfusion_flutter_datagrid/datagrid.dart';
-
 import 'package:syncfusion_flutter/datagrid/model/team.dart';
 
 /// Set team's data collection to data grid source.
@@ -214,5 +208,3 @@ class TeamDataGridSource extends DataGridSource {
     return teamData;
   }
 }
-
-/// Set employee's data collection to data grid source.
